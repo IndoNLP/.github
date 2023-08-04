@@ -30,6 +30,6 @@ jobs:
           plugin_activity_days: 14
           plugin_activity_filter: issue, pr, release, fork, review, ref/create, public, member
           plugin_repositories: yes
-          plugin_repositories_featured: IndoNLP/nusa-crowd
+          plugin_repositories_pinned: 6
           config_timezone: Asia/Jakarta
           config_order: base.header, base.community, base.repositories, introduction, repositories, activity, achievements, followup
