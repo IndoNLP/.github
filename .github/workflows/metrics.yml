@@ -16,3 +16,9 @@ jobs:
         with:
           user: IndoNLP
           token: ${{ secrets.METRICS_TOKEN }}
+          base: header
+          plugin_stargazers: yes
+          plugin_contributors: yes
+          plugin_contributors_contributions: yes
+          config_timezone: Asia/Indonesia
+          config_order: base.header, contributors, stargazers
