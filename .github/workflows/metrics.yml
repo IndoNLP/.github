@@ -26,8 +26,8 @@ jobs:
           plugin_followup: yes
           plugin_followup_archived: no
           plugin_activity: yes
-          plugin_activity_limit: 3
-          plugin_activity_days: 7
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create, public, member
           config_timezone: Asia/Jakarta
-          config_order: base.header, base.community, base.repositories, people, introduction, activity, achievements, followup
+          config_order: base.header, base.community, base.repositories, introduction, activity, achievements, followup
