@@ -22,7 +22,4 @@ jobs:
           plugin_stargazers: yes
           plugin_achievements: yes
           plugin_achievements_only: inspirer, developer, maintainer
-          plugin_notable: yes
-          plugin_notable_indepth: yes
-          plugin_notable_self: yes
-          config_timezone: Asia/Indonesia
+          config_timezone: Asia/Jakarta
