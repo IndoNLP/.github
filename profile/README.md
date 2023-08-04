@@ -2,4 +2,4 @@
 
 In progress
 
-![Metrics](../github-metrics.svg)
+![Metrics](https://github.com/IndoNLP/.github/blob/main/github-metrics.svg)
