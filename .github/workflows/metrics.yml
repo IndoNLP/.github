@@ -36,4 +36,4 @@ jobs:
           plugin_activity_days: 7
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
           config_timezone: Asia/Jakarta
-          config_order: base, introduction, traffic, habits, people, followup, achievements, stargazers, activity
+          config_order: base.header, base.community, base.repositories, introduction, traffic, habits, people, followup, achievements, stargazers, activity
