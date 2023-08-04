@@ -17,9 +17,6 @@ jobs:
           user: IndoNLP
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, community, repositories
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
           plugin_introduction: yes
           plugin_people: yes
           plugin_people_types: members
@@ -33,4 +30,4 @@ jobs:
           plugin_activity_days: 7
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
           config_timezone: Asia/Jakarta
-          config_order: base.header, base.community, base.repositories, people, introduction, activity, achievements, followup, habits
+          config_order: base.header, base.community, base.repositories, people, introduction, activity, achievements, followup
