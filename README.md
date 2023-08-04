@@ -1,2 +1,5 @@
 # IndoNLP
-Landing page
+
+In progress
+
+![Metrics](/github-metrics.svg)
