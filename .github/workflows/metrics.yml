@@ -16,12 +16,13 @@ jobs:
         with:
           user: IndoNLP
           token: ${{ secrets.METRICS_TOKEN }}
-          base: repositories
-          plugin_traffic: yes
+          base: header
           plugin_introduction: yes
+          plugin_traffic: yes
+          plugin_people: yes
+          plugin_people_types: contributors
           plugin_stargazers: yes
           plugin_achievements: yes
-          plugin_achievements_only: inspirer, developer, maintainer
           plugin_activity: yes
           plugin_activity_limit: 3
           plugin_activity_days: 7
